@@ -1,0 +1,50 @@
+
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 200px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 10px;
+}
+
+.settings-panel, .logs-panel {
+    background-color: #f4f4f4;
+    padding: 10px;
+    width: 300px;
+}
+
+.control-bar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+button {
+    background-color: #555;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.start-session {
+    background-color: green;
+}
+
+select, textarea, input {
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+}
